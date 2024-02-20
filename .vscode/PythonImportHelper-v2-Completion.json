@@ -1,0 +1,38 @@
+[
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "input",
+        "kind": 5,
+        "importPath": "CNN",
+        "description": "CNN",
+        "peekOfCode": "input = np.array([1,6,30,7,70,43,503,201,1005,99], dtype=float)\noutput = np.array([0.0254, 0.1524, 0.762, 0.1778, 1.778, 1.0922, 12.776, 5.1054, 25.527, 2.514], dtype=float)\n#topografia red\ncapa1= tf.keras.layers.Dense(units= 1, input_shape = [1])\n#creamos el modelo\n#optimizador -> encargado de ajustar los pesos y los sesgos de manera eficiente",
+        "detail": "CNN",
+        "documentation": {}
+    },
+    {
+        "label": "output",
+        "kind": 5,
+        "importPath": "CNN",
+        "description": "CNN",
+        "peekOfCode": "output = np.array([0.0254, 0.1524, 0.762, 0.1778, 1.778, 1.0922, 12.776, 5.1054, 25.527, 2.514], dtype=float)\n#topografia red\ncapa1= tf.keras.layers.Dense(units= 1, input_shape = [1])\n#creamos el modelo\n#optimizador -> encargado de ajustar los pesos y los sesgos de manera eficiente",
+        "detail": "CNN",
+        "documentation": {}
+    }
+]
